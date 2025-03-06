@@ -946,7 +946,7 @@ p {
 ===========================*/
 
 .single_slider {
-  height: 800px;
+  height: 400px;
   position: relative;
   overflow: hidden;
   border-bottom-left-radius: 165px;
@@ -954,7 +954,7 @@ p {
 
 @media only screen and (min-width: 1400px) {
   .single_slider {
-    height: 950px;
+    height: 550px;
   }
 }
 
@@ -966,13 +966,13 @@ p {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .single_slider {
-    height: 700px;
+    height: 350px;
   }
 }
 
 @media (max-width: 767px) {
   .single_slider {
-    height: 600px;
+    height: 300px;
     border-bottom-left-radius: 85px;
   }
 }
