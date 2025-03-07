@@ -889,6 +889,20 @@ p {
   left: 25px;
 }
 /* Pantallas grandes (PCs y laptops) */
+@media (min-width: 1600px) {
+  .container_slider {
+    height: 900px;
+  }
+  .slider_section {
+    width: calc(100% / 3);
+    height: 900px;
+  }
+}
+@media (min-width: 1500px) {
+  .container_slider {
+    height: 800px;
+  }
+}
 @media (min-width: 1200px) {
   .container_slider {
     height: 700px;
@@ -896,16 +910,16 @@ p {
 }
 
 /* Tablets en horizontal (hasta 1199px) */
-@media (max-width: 1199px) {
+@media (max-width: 1100px) {
   .container_slider {
-    height: 500px;
+    height: 550px;
   }
 }
 
 /* Tablets en vertical y móviles grandes (hasta 991px) */
-@media (max-width: 991px) {
+@media (max-width: 900px) {
   .container_slider {
-    height: 400px;
+    height: 450px;
   }
   .btn_left,
   .btn_right {
@@ -917,7 +931,7 @@ p {
 /* Móviles medianos y pequeños (hasta 767px) */
 @media (max-width: 767px) {
   .container_slider {
-    height: 300px;
+    height: 330px;
   }
   .btn_left,
   .btn_right {
