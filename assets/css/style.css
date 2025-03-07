@@ -1495,7 +1495,7 @@ p {
 }
 @media (max-width: 575px) {
   .card:hover .content_card {
-    height: 30%;
+    height: 40%;
   }
 }
 /*===========================
