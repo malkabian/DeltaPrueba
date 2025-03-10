@@ -94,71 +94,7 @@ $(function () {
   wow.init();
 });
 //=====  slider
-const btnLeft = document.querySelector(".btn_left"),
-  btnRight = document.querySelector(".btn_right"),
-  slider = document.querySelector("#slider"),
-  sliderSection = document.querySelectorAll(".slider_section");
 
-btnLeft.addEventListener("click", (e) => moveToLeft());
-btnRight.addEventListener("click", (e) => moveToRight());
-
-setInterval(() => {
-  moveToRight();
-}, 4000);
-let operation = 0;
-(counter = 0), (widthImg = 100 / sliderSection.length);
-
-function moveToRight() {
-  if (counter >= sliderSection.length - 1) {
-    counter = 0;
-    operation = 0;
-    slider.style.transform = `translate(-${operation}%)`;
-    slider.style.transition = "ease .6";
-    return;
-  }
-  counter++;
-  operation = operation + widthImg;
-  slider.style.transform = `translate(-${operation}%)`;
-  slider.style.transition = "all ease .6s";
-}
-
-function moveToLeft() {
-  counter--;
-  if (counter < 0) {
-    counter = sliderSection.length - 1;
-    operation = widthImg * (sliderSection.length - 1);
-    slider.style.transform = `translate(-${operation}%)`;
-    slider.style.transition = "ease .6";
-    return;
-  }
-  operation = operation - widthImg;
-  slider.style.transform = `translate(-${operation}%)`;
-  slider.style.transition = "all ease .6s";
-}
-//======= slider product
-function currentDiv(n) {
-  showDivs((slideIndex = n));
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  if (n > x.length) {
-    slideIndex = 1;
-  }
-  if (n < 1) {
-    slideIndex = x.length;
-  }
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" demo-hover", "");
-  }
-  x[slideIndex - 1].style.display = "inline";
-  dots[slideIndex - 1].className += " demo-hover";
-}
 //===========modal
 const myModal = document.getElementById("myModal");
 const myInput = document.getElementById("myInput");
