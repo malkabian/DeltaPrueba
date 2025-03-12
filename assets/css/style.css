@@ -838,7 +838,82 @@ p {
 .sticky .navbar-nav .nav-item:hover > a {
   color: #fa0606;
 }
-
+/*===========================
+     02.SLIDER css 
+===========================*/
+.container_slider {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+@media only screen and (max-width: 6500px) {
+  .container_slider {
+    margin-bottom: 25%;
+  }
+}
+@media only screen and (max-width: 4500px) {
+  .container_slider {
+    margin-bottom: 20%;
+  }
+}
+@media only screen and (max-width: 3500px) {
+  .container_slider {
+    margin-bottom: 18%;
+  }
+}
+@media only screen and (max-width: 3000px) {
+  .container_slider {
+    margin-bottom: 15%;
+  }
+}
+@media only screen and (max-width: 2000px) {
+  .container_slider {
+    margin-bottom: 10%;
+  }
+}
+@media only screen and (max-width: 1500px) {
+  .container_slider {
+    margin-bottom: 5%;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .container_slider {
+    height: 366px;
+    margin-bottom: 2%;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .container_slider {
+    height: 286px;
+    margin-bottom: 2%;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .container_slider {
+    height: 229px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .container_slider {
+    height: 220px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .container_slider {
+    height: 172px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .container_slider {
+    height: 143px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .container_slider {
+    height: 115px;
+  }
+}
+/*=
 /*===========================
         04.Slider other pages css 
 ===========================*/
@@ -1139,9 +1214,154 @@ p {
 /*===========================
       06.Single Product css 
 ===========================*/
+.container_carousel {
+  text-align: center;
+  padding: 0 0 25px 100px;
+  object-fit: cover;
+}
+@media (max-width: 3540px) and (min-width: 2940px) {
+  .container_carousel {
+    padding-left: 33%;
+    padding-bottom: 3%;
+  }
+}
+@media (max-width: 2940px) and (min-width: 1940px) {
+  .container_carousel {
+    padding-left: 25%;
+    padding-bottom: 3%;
+  }
+}
+@media (max-width: 1939px) and (min-width: 1400px) {
+  .container_carousel {
+    padding-left: 15%;
+    padding-bottom: 5%;
+  }
+}
+.carousel_product {
+  width: 500px;
+  height: 500px;
+  margin-left: 25px;
+}
+@media (max-width: 1363px) {
+  .carousel_product {
+    padding: 0 0 25px 150px;
+  }
+}
+@media (max-width: 1300px) {
+  .container_carousel {
+    padding: 0 0 25px 100px;
+  }
+}
+@media (max-width: 1100px) {
+  .container_carousel {
+    padding: 0 0 100px 90px;
+  }
+}
+@media (max-width: 960px) {
+  .container_carousel {
+    padding: 0 0 100px 80px;
+  }
+}
+@media (max-width: 950px) {
+  .container_carousel {
+    padding: 0 0 100px 50px;
+  }
+}
+@media (max-width: 890px) {
+  .container_carousel {
+    padding: 0 0 100px 10px;
+  }
+}
+@media (max-width: 800px) {
+  .container_carousel {
+    padding: 0 0 100px 0;
+  }
+}
+
+@media (max-width: 1138px) {
+  .carousel_product {
+    width: 400px;
+    height: 400px;
+    padding: 0 0 25px 0;
+  }
+}
+@media (max-width: 780px) {
+  .container_carousel {
+    padding: 0 0 25px 0;
+  }
+}
+@media (max-width: 780px) {
+  .carousel_product {
+    width: 350px;
+    height: 350px;
+    padding: 0 0 25px 0;
+  }
+}
+@media (max-width: 690px) {
+  .carousel_product {
+    width: 320px;
+    height: 320px;
+    padding: 0 0 25px 0;
+  }
+}
+@media (max-width: 630px) {
+  .carousel_product {
+    width: 300px;
+    height: 300px;
+    padding: 0 0 25px 0;
+  }
+}
+@media (max-width: 575px) {
+  .container_carousel {
+    padding: 0 0 50px 15%;
+  }
+}
+@media (max-width: 500px) {
+  .container_carousel {
+    padding: 0 0 50px 10%;
+  }
+}
+@media (max-width: 440px) {
+  .container_carousel {
+    padding: 0 0 50px 8%;
+  }
+}
+@media (max-width: 400px) {
+  .container_carousel {
+    padding: 0 0 50px 10%;
+  }
+}
+@media (max-width: 380px) {
+  .container_carousel {
+    padding: 0 0 50px 5%;
+  }
+}
+@media (max-width: 360px) {
+  .container_carousel {
+    padding: 0 0 50px 5%;
+  }
+}
+@media (max-width: 340px) {
+  .container_carousel {
+    padding: 0 0 50px 2%;
+  }
+}
+@media (max-width: 320px) {
+  .container_carousel {
+    padding: 0 0 50px 0;
+  }
+}
+@media (max-width: 590px) {
+  .carousel_product {
+    width: 280px;
+    height: 280px;
+    padding: 0 0 25px 0;
+  }
+}
+
 .thumbnail {
-  width: 100px;
-  height: 100px;
+  width: 40px;
+  height: 40px;
 }
 @media (max-width: 1140px) {
   .thumbnail {
@@ -1167,6 +1387,65 @@ p {
     height: 100%;
   }
 }
+.text_product {
+  padding: 0 50px 0 50px;
+}
+@media (max-width: 3600px) {
+  .text_product {
+    padding: 0 1200px 0 50px;
+  }
+}
+@media (max-width: 3100px) {
+  .text_product {
+    padding: 0 1000px 0 50px;
+  }
+}
+@media (max-width: 2800px) {
+  .text_product {
+    padding: 0 800px 0 50px;
+  }
+}
+@media (max-width: 2500px) {
+  .text_product {
+    padding: 0 700px 0 50px;
+  }
+}
+@media (max-width: 2100px) {
+  .text_product {
+    padding: 0 500px 0 50px;
+  }
+}
+@media (max-width: 1800px) {
+  .text_product {
+    padding: 0 350px 0 50px;
+  }
+}
+@media (max-width: 1500px) {
+  .text_product {
+    padding: 0 150px 0 50px;
+  }
+}
+@media (max-width: 1500px) {
+  .text_product {
+    padding: 0 100px 0 50px;
+  }
+}
+@media (max-width: 900px) {
+  .text_product {
+    padding: 0 50px 0 50px;
+  }
+}
+@media (max-width: 820px) {
+  .text_product {
+    padding: 0 25px 0 25px;
+  }
+}
+@media (max-width: 300px) {
+  .text_product {
+    padding: 0 10px 0 10px;
+  }
+}
+
 /*===========================
       06.Promotions css 
 ===========================*/
@@ -1196,6 +1475,13 @@ p {
 }
 .title_card {
   padding: 2% 0;
+}
+.text_card {
+  color: white;
+  font-weight: 800;
+  text-align: center;
+  background-color: red;
+  padding: 20px 0;
 }
 .title_card .text_card {
   white-space: nowrap;
@@ -1275,14 +1561,6 @@ p {
 
 .single_product:hover .middle {
   opacity: 1;
-}
-
-.text_product {
-  text-align: center;
-  background-color: #fa0606;
-  color: white;
-  font-size: 20px;
-  padding: 16px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
