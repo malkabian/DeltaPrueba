@@ -1508,11 +1508,6 @@ p {
 }
 @media (max-width: 960px) {
   .card:hover .content_card {
-    height: 40%;
-  }
-}
-@media (max-width: 768px) {
-  .card:hover .content_card {
     height: 50%;
   }
 }
